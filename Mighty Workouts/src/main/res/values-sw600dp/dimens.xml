@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <!-- Login -->
+    <dimen name="login_logo_width">127dp</dimen>
+    <dimen name="login_logo_height">129dp</dimen>
+    <dimen name="login_mighty_text_width">319dp</dimen>
+    <dimen name="login_mighty_text_height">43dp</dimen>
+    <dimen name="login_mighty_input_text_height">55dp</dimen>
+    <dimen name="login_mighty_button_height">70dp</dimen>
+    <dimen name="login_mighty_social_media_width">80dp</dimen>
+    <dimen name="login_mighty_social_media_height">86dp</dimen>
+
+    <dimen name="login_mighty_email_width">31dp</dimen>
+    <dimen name="login_mighty_email_height">38dp</dimen>
+
+    <dimen name="txt_input_field">14sp</dimen>
+    <dimen name="txt_button">18sp</dimen>
+    <dimen name="txt_label">16sp</dimen>
+
+
+    <dimen name="login_margin_top">30dp</dimen>
+    <dimen name="top_bar_height">60dp</dimen>
+
+</resources>

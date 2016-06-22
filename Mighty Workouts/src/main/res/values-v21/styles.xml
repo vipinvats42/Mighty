@@ -1,0 +1,36 @@
+<resources>>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:progressBarStyleSmall">@style/MaterialProgressBarFix.Small</item>
+        <item name="android:progressBarStyle">@style/MaterialProgressBarFix</item>
+        <item name="android:progressBarStyleLarge">@style/MaterialProgressBarFix.Large</item>
+    </style>
+
+
+    <style name="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/grey</item>
+        <item name="android:progressBarStyleSmall">@style/MaterialProgressBarFix.Small</item>
+        <item name="android:progressBarStyle">@style/MaterialProgressBarFix</item>
+        <item name="android:progressBarStyleLarge">@style/MaterialProgressBarFix.Large</item>
+
+    </style>
+
+
+    <style name="LoginTheme" parent="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="MaterialProgressBarFix.Small" parent="@android:style/Widget.Holo.ProgressBar.Small" />
+    <style name="MaterialProgressBarFix"       parent="@android:style/Widget.Holo.ProgressBar" />
+    <style name="MaterialProgressBarFix.Large" parent="@android:style/Widget.Holo.ProgressBar.Large" />
+</resources>

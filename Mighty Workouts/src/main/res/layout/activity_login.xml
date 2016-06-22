@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mightyworkouts.controller.login.LoginActivity">
+
+   <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/layout_logo"
+                android:layout_marginTop="50dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/mighty_logo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="@dimen/login_logo_width"
+                    android:background="@drawable/splash_logo"
+                    android:layout_height="@dimen/login_logo_height" />
+
+                <ImageView
+                    android:id="@+id/mighty_logo_text"
+                    android:layout_width="@dimen/login_mighty_text_width"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@id/mighty_logo"
+                    android:background="@drawable/splash_mighty_workout_text"
+                    android:layout_height="@dimen/login_mighty_text_height" />
+
+            </RelativeLayout>
+
+            <include layout="@layout/content_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/login_margin_top"
+                android:layout_below="@id/layout_logo"
+                ></include>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

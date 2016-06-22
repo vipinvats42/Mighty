@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Mighty Workouts</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- font name -->
+    <string name="font_opensans_bold_italic">OpenSans-BoldItalic_3.ttf</string>
+    <string name="font_opensans_bold">OpenSans-Bold_3.ttf</string>
+    <string name="font_opensans_cond_bold">OpenSans-CondBold_3.ttf</string>
+    <string name="font_opensans_cond_light">OpenSans-CondLight_3.ttf</string>
+    <string name="font_opensans_cond_light_italic">OpenSans-CondLightItalic_3.ttf</string>
+    <string name="font_opensans_extra_bold">OpenSans-ExtraBold_3.ttf</string>
+    <string name="font_opensans_extra_bold_italic">OpenSans-ExtraBoldItalic_3.ttf</string>
+    <string name="font_opensans_italic">OpenSans-Italic_3.ttf</string>
+    <string name="font_opensans_light">OpenSans-Light_3.ttf</string>
+    <string name="font_opensans_light_italic">OpenSans-LightItalic_3.ttf</string>
+    <string name="font_opensans_regular">OpenSans-Regular_3.ttf</string>
+    <string name="font_opensans_semi_bold">OpenSans-Semibold_3.ttf</string>
+    <string name="font_opensans_semi_bold_italic">OpenSans-SemiboldItalic_3.ttf</string>
+    <string name="password">PASSWORD</string>
+    <string name="email">EMAIL</string>
+    <string name="loading">LOADING...</string>
+    <string name="forget_password">Forgot Password ?</string>
+    <string name="remember_me">Remember me</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="login">LOGIN</string>
+    <string name="confirm_password">CONFIRM PASSWORD</string>
+    <string name="title_activity_my_work_out">MyWorkOutActivity</string>
+    <string name="title_activity_serach">SerachActivity</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="title_activity_community">CommunityActivity</string>
+    <string name="title_activity_faq">FAQActivity</string>
+    <string name="title_activity_more_info">MoreInfoActivity</string>
+
+</resources>

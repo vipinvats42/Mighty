@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Primary Color-->
+
+    <color name="dark_red">#AF1724</color>
+    <color name="red">#FF0101</color>
+    <color name="black">#000000</color>
+    <color name="blue">#1F76F7</color>
+    <color name="yellow">#FEC400</color>
+    <color name="grey">#2A2A2A</color>
+    <color name="green">#16A085</color>
+    <color name="orange">#F46523</color>
+    <color name="slider_orange">#E67E22</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+
+    <!-- Text color -->
+    <color name="login_et_color">#8B8B8B</color>
+    <color name="login_forget_password">#3259CD</color>
+    <color name="login_remember_me">#ADADB3</color>
+
+    <color name="dsb_progress_color">#ff009688</color>
+    <color name="dsb_track_color">#ff939393</color>
+    <color name="dsb_disabled_color">#66939393</color>
+    <color name="dsb_ripple_color_pressed">#77939393</color>
+    <color name="dsb_ripple_color_focused">#99999999</color>
+
+</resources>

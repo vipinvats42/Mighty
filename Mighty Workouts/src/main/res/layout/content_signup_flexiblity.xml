@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/layout_strength"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.mightyworkouts.seekbar.DiscreteSeekBar
+            android:id="@+id/strength_yellow_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:dsb_min="0"
+            android:layout_margin="20dp"
+            app:dsb_indicatorPopupEnabled="false"
+            app:dsb_max="4"
+            android:layout_centerVertical="true"
+            app:dsb_indicatorColor="@color/yellow"
+            app:dsb_progressColor="@color/yellow"
+            app:dsb_rippleColor="@color/yellow"
+            app:dsb_value="0"
+            />
+
+        <LinearLayout
+            android:weightSum="5"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:id="@+id/yellow_point1"
+                    android:layout_centerInParent="true"
+                    android:layout_width="5dp"
+                    android:layout_height="20dp">
+
+                    <ImageView
+                        android:id="@+id/iv_yellow_point1"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/gray_point"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/yellow_point2"
+                    android:layout_centerInParent="true"
+                    android:layout_width="5dp"
+                    android:layout_height="20dp">
+
+                    <ImageView
+                        android:id="@+id/iv_yellow_point2"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/gray_point"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/yellow_point3"
+                    android:layout_centerInParent="true"
+                    android:layout_width="5dp"
+                    android:layout_height="20dp">
+
+                    <ImageView
+                        android:id="@+id/iv_yellow_point3"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/gray_point"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/yellow_point4"
+                    android:layout_centerInParent="true"
+                    android:layout_width="5dp"
+                    android:layout_height="20dp">
+
+                    <ImageView
+                        android:id="@+id/iv_yellow_point4"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/gray_point"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/yellow_point5"
+                    android:layout_width="5dp"
+                    android:layout_height="20dp"
+                    android:layout_centerInParent="true"
+                    >
+
+                    <ImageView
+                        android:id="@+id/iv_yellow_point5"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/gray_point"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_fitness"
+        android:layout_below="@id/layout_strength"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <com.mightyworkouts.seekbar.DiscreteSeekBar
+            android:id="@+id/fitness_orange_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:dsb_min="0"
+            android:layout_margin="20dp"
+            app:dsb_indicatorPopupEnabled="false"
+            app:dsb_max="4"
+            android:layout_centerVertical="true"
+            app:dsb_indicatorColor="@color/slider_orange"
+            app:dsb_progressColor="@color/slider_orange"
+            app:dsb_rippleColor="@color/slider_orange"
+            app:dsb_allowTrackClickToDrag="true"
+            app:dsb_value="2"
+            />
+
+        <LinearLayout
+            android:weightSum="5"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+
+                    android:layout_centerInParent="true"
+                    android:layout_width="5dp"
+                    android:layout_height="20dp">
+
+                    <ImageView
+                        android:id="@+id/iv_orange_point1"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/gray_point"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_centerInParent="true"
+                    android:layout_width="5dp"
+                    android:layout_height="20dp">
+
+                    <ImageView
+                        android:id="@+id/iv_orange_point2"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/gray_point"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_centerInParent="true"
+                    android:layout_width="5dp"
+                    android:layout_height="20dp">
+
+                    <ImageView
+                        android:id="@+id/iv_orange_point3"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/gray_point"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_centerInParent="true"
+                    android:layout_width="5dp"
+                    android:layout_height="20dp">
+
+                    <ImageView
+                        android:id="@+id/iv_orange_point4"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/gray_point"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="5dp"
+                    android:layout_centerInParent="true"
+                    android:layout_height="20dp">
+
+                    <ImageView
+                        android:id="@+id/iv_orange_point5"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/gray_point"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_flexiblity"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/layout_fitness"
+        android:layout_height="wrap_content">
+
+        <com.mightyworkouts.seekbar.DiscreteSeekBar
+            android:id="@+id/flexiblity_green_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:dsb_min="0"
+            android:layout_margin="20dp"
+            app:dsb_indicatorPopupEnabled="false"
+            app:dsb_max="4"
+            android:layout_centerVertical="true"
+            app:dsb_indicatorColor="@color/green"
+            app:dsb_progressColor="@color/green"
+            app:dsb_rippleColor="@color/green"
+            app:dsb_value="2"
+            />
+
+        <LinearLayout
+            android:weightSum="5"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_centerInParent="true"
+                    android:layout_width="5dp"
+                    android:layout_height="20dp">
+
+                    <ImageView
+                        android:id="@+id/iv_green_point1"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/gray_point"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_centerInParent="true"
+                    android:layout_width="5dp"
+                    android:layout_height="20dp">
+
+                    <ImageView
+                        android:id="@+id/iv_green_point2"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/gray_point"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_centerInParent="true"
+                    android:layout_width="5dp"
+                    android:layout_height="20dp">
+
+                    <ImageView
+                        android:id="@+id/iv_green_point3"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/gray_point"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_centerInParent="true"
+                    android:layout_width="5dp"
+                    android:layout_height="20dp">
+
+                    <ImageView
+                        android:id="@+id/iv_green_point4"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/gray_point"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="5dp"
+                    android:layout_centerInParent="true"
+                    android:layout_height="20dp">
+
+                    <ImageView
+                        android:id="@+id/iv_green_point5"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/gray_point"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
